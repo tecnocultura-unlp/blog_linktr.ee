@@ -76,11 +76,29 @@ a {
 }
 
 .tile-share-button {
-    margin: 8px;
+    margin-right: 12px;
+    margin-top: 22px;
     width: 40px;
     height: 40px;
     border-radius: 20px;
     background-color: rgb(52,52,52);
+}
+
+.tile .icon {
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    margin-bottom: 1em;
+    border-radius: 4px;
+}
+
+.tile .icon .image {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.title {
+    margin-top: 30px;
 }
 
 .tile-share-button i {
